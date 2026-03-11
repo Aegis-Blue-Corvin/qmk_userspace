@@ -1,0 +1,13 @@
+clone miryoku-qmk
+
+with miryoku-qmk/
+
+	keymap.c: keyboards/bastardkb/charybdis/3x5/keymaps/manna-harbour_miryoku
+
+	custom_config: users/manna-harbour_miryoku/
+
+
+
+compile command:
+
+qmk compile -kb bastardkb/charybdis/3x5/v2/splinky_3 -km manna-harbour_miryoku
